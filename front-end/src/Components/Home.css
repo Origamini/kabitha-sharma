@@ -4,9 +4,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     padding: 20px;
     backdrop-filter: blur(20px);
-    background-color: aqua;
-    margin-top: 20px;
+    background-color: transparent;
+    margin-bottom: 20px;
     border-radius: 50px;
+    scroll-behavior: smooth;
 }

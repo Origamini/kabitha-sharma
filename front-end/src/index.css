@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Itim&display=swap');
+body{
+    background-image: url("https://images.pexels.com/photos/1590549/pexels-photo-1590549.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-attachment: fixed;
+}
 #root{
     font-family: "Itim", serif;
-    background-color: rgb(44, 227, 117);
+    /* background-color: rgb(44, 227, 117); */
 }

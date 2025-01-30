@@ -29,8 +29,8 @@ const Home = () => {
   };
 
   return (
-    <motion.div className="container text-dark" initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0,transition:{duration:1}}}>
-      <div className="module d-flex justify-content-between">
+    <motion.div className="container text-dark" initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}}>
+      <div className="module d-flex">
         <div className="container">
           <h1>Kavitha Kumari</h1>
           <p>
@@ -40,21 +40,8 @@ const Home = () => {
             odio explicabo sit natus omnis!
           </p>
         </div>
-        <div className="flex-column">
-          <div>hello</div>
-          <div>wow</div>
-          <div>wowo</div>
-          <div>hello</div>
-          <div>wow</div>
-          <div>wowo</div>
-          <div>hello</div>
-          <div>wow</div>
-          <div>
-            <i className="bx bxl-instagram"></i>
-          </div>
-        </div>
       </div>
-      <div className="contact-details pb-5">
+      <div className=" module contact-details pb-5">
         <h1>Would like to message me!</h1>
         <form>
           <div className="mb-3">

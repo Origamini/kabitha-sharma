@@ -4,7 +4,7 @@ import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" style={{zIndex:99}}>
+    <nav className="navbar navbar-expand-lg navbar-dark  sticky-top">
       <Link className="navbar-brand" to="/">Portfolio</Link>
       <button
         className="navbar-toggler"
