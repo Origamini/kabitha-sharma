@@ -2,6 +2,8 @@
 body{
     background-image: url("https://images.pexels.com/photos/1590549/pexels-photo-1590549.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
     background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 #root{
     font-family: "Itim", serif;
