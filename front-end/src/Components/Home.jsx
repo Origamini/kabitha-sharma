@@ -33,11 +33,9 @@ const Home = () => {
       <div className="module d-flex">
         <div className="container">
           <h1>Kavitha Kumari</h1>
+          <img src="https://th.bing.com/th/id/R.3c0f2e349d358d3fadf42ec515d8a181?rik=NXueaHqlkRfEjg&riu=http%3a%2f%2fmedia.giphy.com%2fmedia%2fnXJpLaJsYJzCE%2fgiphy.gif&ehk=M5qEmPvd%2fgivmDWxWRPCUjdBN0BNFMDMmWg4mEA2wiE%3d&risl=&pid=ImgRaw&r=0" alt="an error" />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-            quo enim, distinctio maiores aliquam laboriosam error dolor adipisci
-            veniam tempora veritatis similique reprehenderit ab consequuntur
-            odio explicabo sit natus omnis!
+            I a web developer with knowledge in HTML, CSS, Javascript, ReactJs and know programming languages like Java, Python worked with apis and know cloud technology AWS.
           </p>
         </div>
       </div>
