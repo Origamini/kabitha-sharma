@@ -11,3 +11,28 @@
     border-radius: 50px;
     scroll-behavior: smooth;
 }
+.input{
+    background-color: transparent;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 0px;
+}
+.input::placeholder, .textarea::placeholder{
+    color: rgb(185, 104, 104);
+}
+.textarea{
+    height: 100px;
+    width: 300px;
+    background: transparent;
+    border: 1px solid black;
+}
+.button{
+    height: 40px;
+    width: 200px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 20px;
+    background: rgba(185, 104, 104, 0.527);
+}
