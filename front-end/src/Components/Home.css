@@ -1,10 +1,10 @@
 .container{
-    margin-top: 60px;
+    margin-top: 50px;
     /* background: pink; */
     border-radius: 50px;
 }
 .module{
-    height: 70vh;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
