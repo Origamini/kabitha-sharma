@@ -1,5 +1,10 @@
+.container{
+    margin-top: 60px;
+    /* background: pink; */
+    border-radius: 50px;
+}
 .module{
-    height: 90vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -7,8 +12,8 @@
     padding: 20px;
     backdrop-filter: blur(20px);
     background-color: transparent;
-    margin-bottom: 20px;
-    border-radius: 50px;
+    margin-top: 30px;
+    border-radius: 10px;
     scroll-behavior: smooth;
 }
 .input{
@@ -34,4 +39,15 @@
     background: transparent;
     border: 1px solid black;
     border-radius: 20px;
+    transition: 1s ease-in-out;
+}
+.button:hover{
+    background: black;
+    color: white;
+}
+
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 20px;
+    }
 }
