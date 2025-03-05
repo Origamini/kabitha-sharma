@@ -1,0 +1,25 @@
+.card-container{
+    background: white;
+    height: 250px;
+    width: 150px;
+    border-radius: 10px;
+}
+.image-container{
+    background: red;
+    position: relative;
+    height: 100px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    border-bottom: 2px solid black;
+}
+.content-container{
+    padding: 2px;
+    font-size: 14px;
+}
+button{
+    padding: 2px 5px;
+    background: pink;
+    border-radius: 10px;
+    margin: 15px 0px;
+    cursor: pointer;
+}
