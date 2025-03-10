@@ -6,13 +6,27 @@ import './Image.css';
 const Image = () => {
   return (
     <motion.div className='container' initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
-      <div className='module'>
-        <div className="card-container">
-          <div className="image-container">This is image</div>
-          <div className="content-container">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel architecto fuga deleniti libero</p>
-            <button className='content-btn'>Primary</button>
-          </div>
+      <div className='card-container'>
+        <div className="card">
+          AWS Developer
+        </div>
+        <div className="card">
+          ReactJs
+        </div>
+        <div className="card">
+          AWS Solution Architect
+        </div>
+        <div className="card">
+          Java Developer
+        </div>
+        <div className="card">
+          MERN
+        </div>
+        <div className="card">
+          AWS Devops
+        </div>
+        <div className="card">
+          Javascript
         </div>
       </div>
     </motion.div>
