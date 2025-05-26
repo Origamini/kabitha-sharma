@@ -81,7 +81,9 @@ const Home = () => {
       </div>
       <div className='my-contacts'>
         <h1>My Contacts: </h1>
-        <marquee>email: kavithakumari351@gmail.com || Phone: 9100473060 || LinkedIn: https://www.linkedin.com/in/kavitha-kumari-65016a272</marquee>
+        <strong>kavithakumari351@gmail.com</strong>
+        <strong>9100473060</strong>
+        <strong>https://github.com/Origamini</strong>
       </div>
     </motion.div>
   );

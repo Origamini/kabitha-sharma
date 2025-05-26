@@ -1,133 +1,42 @@
-.exp-timeline{
-    position: relative;
-    max-width: 1200px;
-    margin: 100px auto;
-    /* background: blue; */
-}
-.exp-timeline::after{
-    content: '';
-    position: absolute;
-    width: 6px;
-    height: 100%;
+.exp-main{
     background: black;
-    top: 0;
-    left: 50%;
-    margin-left: -3px;
-    z-index: 5;
-    animation: moveline 6s linear forwards;
 }
-@keyframes moveline {
-    0%{ height: 0;}
-    100%{height: 100%;}
+.exp{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:
+    linear-gradient(to bottom, rgba(254, 225, 3, 0) 50%, rgba(0, 0, 0, 0.982)), 
+    url('https://a-static.besthdwallpaper.com/nature-daisy-flowers-wallpaper-2048x1152-11104_49.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
 }
-.exp-box{
-    padding: 10px 50px;
-    position: relative;
-    width: 50%;
-    animation: movedown 1s linear forwards;
-    opacity: 0;
-    z-index: 98;
+.exp-my{
+    border: 1px solid yellow;
+    padding: 20px 40px;
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
 }
-@keyframes movedown {
-    0%{transform: translateY(-30px);}
-    100%{opacity: 1;transform: translateY(0px);}
+.exp-my h2{
+    font-size: 50px;
+    margin-bottom: 10px;
 }
-.exp-box:nth-child(1){
-    animation-delay:0s ;
+.exp-my p{
+    font-size: 20px;
 }
-.exp-box:nth-child(2){
-    animation-delay:1s ;
+.exp-grad{
+    color: white;
+    padding: 20px 50px;
 }
-.exp-box:nth-child(3){
-    animation-delay:3s ;
+.exp-grad h2{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
 }
-.exp-box:nth-child(4){
-    animation-delay:4s ;
-}
-.exp-text-box{
-    position: relative;
-    padding: 20px 30px;
-    background-color: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(20px);
-    border-radius: 10px;
-    font-size: 15px;
-    border: 1px solid black;
-    z-index: 97;
-    -webkit-backdrop-filter: blur(20px);
-}
-.exp-text-box h2{
-    font-weight: 600;
-}
-.exp-text-box small{
-    display: inline-block;
-    margin-bottom: 15px;
-}
-.left-container{
-    left: 0;
-}
-.exp-box img{
- position: absolute;
- right: -20px;
- top: 32px;
- z-index: 20;
-}
-.right-container{
-    left: 50%;
-}
-.right-container img{
-left: -20px;
-}
-.left-container-arrow{
-    height: 0;
-    width: 0;
-    position: absolute;
-    top: 28px;
-    z-index: 1;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-left: 15px solid black;
-    right: -14px;
-}
-.right-container-arrow{
-    height: 0;
-    width: 0;
-    position: absolute;
-    top: 28px;
-    z-index: 1;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-right: 15px solid black;
-    left: -14px;
-}
-
-@media screen and (max-width: 600px){
-    .exp-timeline{
-        margin: 50px auto;
-    }
-    .exp-timeline::after{
-        left: 31px;
-    }
-    .exp-box{
-        width: 100%;
-        padding-left: 80px;
-        padding-right: 25px;
-    }
-    .exp-text-box{
-        font-size: 13px;
-        backdrop-filter: blur(20px);
-    }
-    .exp-text-box small{
-        margin-bottom: 10px;
-    }
-    .right-container{
-        left: 0;
-    }
-    .left-container img,.right-container img{
-        left: 10px;
-    }
-    .left-container-arrow,.right-container-arrow{
-        border-right: 15px solid black;
-        border-left: 0;
-        left: -15px;
-    }
+.exp-grad p{
+    text-align: center;
 }
