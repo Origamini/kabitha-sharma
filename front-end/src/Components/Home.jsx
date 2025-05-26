@@ -35,11 +35,11 @@ const Home = () => {
           <p>
             I a web developer with knowledge in HTML, CSS, Javascript, ReactJs and know programming languages like Java, Python worked with apis and know cloud technology AWS.
           </p>
-        </div>
+      </div>
       <div className='forms'>
-        <form>
           <h1>Would like to message me!</h1>
-          <div className='form-inputs'>
+          <form className='form-inputs'>
+          <div>
             <input
               type="text"
               id="name"
@@ -78,6 +78,10 @@ const Home = () => {
             Submit
           </button>
         </form>
+      </div>
+      <div className='my-contacts'>
+        <h1>My Contacts: </h1>
+        <marquee>email: kavithakumari351@gmail.com || Phone: 9100473060 || LinkedIn: https://www.linkedin.com/in/kavitha-kumari-65016a272</marquee>
       </div>
     </motion.div>
   );

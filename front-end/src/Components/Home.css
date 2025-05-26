@@ -1,44 +1,7 @@
-.input{
-    background-color: transparent;
-    width: 300px;
-    height: 50px;
-    border: none;
-    border-bottom: 2px solid black;
-    padding-left: 15px;
-    margin: 5px 0px 50px 0px;
-}
-.input::placeholder, .textarea::placeholder{
-    color: black;
-}
-.textarea{
-    height: 100px;
-    width: 300px;
-    background: transparent;
-    border: 1px solid black;
-    margin-bottom: 10px;
-    padding: 5px;
-}
-textarea:focus, input:focus{
-    border:2px solid brown;
-    outline: none;
-    transition: 2s ease-in-out;
-}
-.button{
-    height: 40px;
-    width: 200px;
-    background: transparent;
-    border: 1px solid black;
-    border-radius: 20px;
-    transition: 1s ease-in-out;
-}
-.button:hover{
-    background: black;
-    color: white;
-}
 /* Introduction design */
-.home{
+/* .home{
     background-color: black;
-}
+} */
 .Intro{
     height: 100vh;
     width: 100%;
@@ -68,4 +31,44 @@ textarea:focus, input:focus{
     align-items: center;
     padding: 20px 0px;
     color: white;
+    background-image: url("https://cdn.dribbble.com/users/6903/screenshots/1956820/media/06022d14e7fa7eaa196c9e6214557800.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+.form-inputs{
+    border: 1px solid rgba(128, 128, 128, 0.251);
+    color: white;
+    padding: 40px 30px 30px 30px;
+    margin: 50px 0px 20px 0px;
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+}
+.input{
+    background-color: transparent;
+    width: 300px;
+    height: 50px;
+    /* border: none; */
+    padding-left: 15px;
+    margin: 5px 0px 50px 0px;
+    color: white;
+}
+.textarea{
+    height: 100px;
+    width: 300px;
+    background: transparent;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.button{
+    height: 40px;
+    width: 200px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 20px;
+    transition: 1s ease-in-out;
+    color: white;
+    margin: 20px 0px;
+    cursor: pointer;
 }
