@@ -1,20 +1,3 @@
-.container{
-    margin: 60px 10px 60px 10px;
-    border-radius: 50px;
-}
-.module{
-    height: 82vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px;
-    backdrop-filter: blur(20px);
-    background-color: transparent;
-    margin-top: 30px;
-    border-radius: 10px;
-    scroll-behavior: smooth;
-}
 .input{
     background-color: transparent;
     width: 300px;
@@ -38,6 +21,7 @@
 textarea:focus, input:focus{
     border:2px solid brown;
     outline: none;
+    transition: 2s ease-in-out;
 }
 .button{
     height: 40px;
@@ -51,10 +35,37 @@ textarea:focus, input:focus{
     background: black;
     color: white;
 }
-
-@media screen and (max-width: 600px){
-    h1{
-        font-size: 30px;
-        margin-bottom: 20px;
-    }
+/* Introduction design */
+.home{
+    background-color: black;
+}
+.Intro{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: 
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.043) 50%, rgb(0, 0, 0)), 
+    url('https://media1.giphy.com/media/xUA7b4arnbo3THfzi0/giphy.gif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+.Intro h1{
+    font-size: 50px;
+}
+.Intro p{
+    font-size: 20px;
+    padding: 5px 10px;
+}
+.forms{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+    color: white;
 }

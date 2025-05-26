@@ -29,19 +29,17 @@ const Home = () => {
   };
 
   return (
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className='container'>
-      <div className="module">
-        <div>
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className='home'>
+        <div className='Intro'>
           <h1>Kavitha Kumari</h1>
           <p>
             I a web developer with knowledge in HTML, CSS, Javascript, ReactJs and know programming languages like Java, Python worked with apis and know cloud technology AWS.
           </p>
         </div>
-      </div>
-      <div className="module">
-        <h1>Would like to message me!</h1>
+      <div className='forms'>
         <form>
-          <div>
+          <h1>Would like to message me!</h1>
+          <div className='form-inputs'>
             <input
               type="text"
               id="name"

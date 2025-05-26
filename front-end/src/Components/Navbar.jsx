@@ -4,8 +4,6 @@ import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav>
-      <NavLink className="portfolio" to="/">Portfolio</NavLink>
       <div className='links'>
           <li>
             <NavLink to="/">Home</NavLink>
@@ -20,7 +18,6 @@ const Navbar = () => {
             <NavLink to="/image">Image</NavLink>
           </li>
       </div>
-    </nav>
   );
 };
 
