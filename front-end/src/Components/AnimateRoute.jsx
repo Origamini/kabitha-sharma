@@ -7,10 +7,11 @@ import {
 import Home from './Home';
 import About from './About';
 import Experience from "./Experience";
-import Image from "./Image";
+import Image from "./Skills";
 
 // import {} from 'framer-motion';
 import { AnimatePresence } from "framer-motion";
+import Skills from './Skills';
 
 const AnimateRoute = () => {
     const location = useLocation();
@@ -22,7 +23,7 @@ const AnimateRoute = () => {
                 <Route path="/home" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/experience" element={<Experience />} />
-                <Route path="/image" element={<Image />} />
+                <Route path="/skills" element={<Skills />} />
             </Routes>
         </AnimatePresence>
     )
