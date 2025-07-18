@@ -16,10 +16,55 @@
     background-blend-mode: multiply;
 }
 .exp-my{
+    position: relative;
     border: 1px solid yellow;
     padding: 20px 40px;
     border-radius: 5px;
     backdrop-filter: blur(5px);
+}
+.exp-my::before{
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    background: yellow;
+    translate: -50% -50%;
+    border-radius: 50%;
+    animation: 
+        move 10s  infinite,
+        sizes 10s steps(4, end) infinite;
+}
+@keyframes sizes {
+    0%,50%,100%{
+        height: 5px;
+        width: 15px;
+    }
+    25%,75%{
+        height: 15px;
+        width: 5px;
+    }
+}
+@keyframes move {
+    0% {
+        top: 0;
+        left: 0;
+    }
+    25% {
+        top: 0;
+        left: 100%;
+    }
+    50% {
+        top: 100%;
+        left: 100%;
+    }
+    75% {
+        top: 100%;
+        left: 0;
+    }
+    100% {
+        top: 0;
+        left: 0;
+    }
 }
 .exp-my h2{
     font-size: 50px;

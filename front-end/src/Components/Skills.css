@@ -34,9 +34,21 @@
     margin: 10px;
     color: white;
     cursor: pointer;
-    border-radius: 20px;
+    /* border-radius: 20px; */
     box-shadow: 0px 0px 10px 0px aqua;
     transition: 0.5s;
+}
+.card::before{
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    background: aqua;
+    translate: -50% -50%;
+    border-radius: 50%;
+    animation: 
+        move 10s  infinite,
+        sizes 10s steps(4, end) infinite;
 }
 .card #hover-text{
     visibility: hidden;
