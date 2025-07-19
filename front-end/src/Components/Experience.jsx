@@ -14,7 +14,21 @@ const Experience = () => {
           </div>
           <div className="exp-grad">
             <h2>This was my graduation phase</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, voluptas. Saepe, nostrum! Voluptate eos debitis quidem consequatur eligendi optio repellendus ipsa maxime assumenda voluptates commodi architecto, maiores rem nisi ratione.</p>
+            <div className="slider">
+            <div className="slide-track">
+              <div className="slide">Card1</div>
+              <div className="slide ">Card2</div>
+              <div className="slide">Card3</div>
+              <div className="slide">Card4</div>
+              <div className="slide">Card5</div>
+              {/* repeat */}
+              <div className="slide">Card6</div>
+              <div className="slide">Card7</div>
+              <div className="slide">Card8</div>
+              <div className="slide">Card9</div>
+              <div className="slide">Card10</div>
+            </div>
+          </div>
           </div>
         </div>
        </motion.div>
