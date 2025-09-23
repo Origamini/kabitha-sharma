@@ -37,7 +37,7 @@ const Home = () => {
           </p>
       </div>
       <div className='forms'>
-          <h1>Would like to message me!</h1>
+          <h1>Contact me!</h1>
           <form className='form-inputs'>
           <div>
             <input
@@ -81,9 +81,13 @@ const Home = () => {
       </div>
       <div className='my-contacts'>
         <h1>My Contacts: </h1>
-        <strong>kavithakumari351@gmail.com</strong>
-        <strong>9100473060</strong>
-        <strong>https://github.com/Origamini</strong>
+        <ul>
+          <li>kavithakumari351@gmail.com</li>
+          <li>9100473060</li>
+          <li>https://github.com/Origamini</li>
+          <li>https://www.linkedin.com/in/kavitha-kumari-65016a272</li>
+          <li>https://www.youtube.com/@Kiwicoders256</li>
+        </ul>
       </div>
     </motion.div>
   );

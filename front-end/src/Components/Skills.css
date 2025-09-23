@@ -1,101 +1,114 @@
 .container{
-    /* height: 100vh; */
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 60px 15px 10px 15px;
     background: black;
-}
-.card-container{
-    height: 100vh;
     width: 100%;
-    border-radius: 10px;
     display: flex;
-    justify-content: space-evenly;
+    color: white;
+    flex-direction: column;
+    padding-top: 70px;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    background-color: transparent;
-     background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWFhb21qemVzZzNqMGFjeHpzcHA3dzh2c3VyYXV2dW1uanB3M3B5YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7XDEXpdrqmRzpYB5eR/giphy.gif');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-blend-mode: multiply
 }
-.card{
-    height: 100px;
-    width: 200px;
+.titles{
+    /* background: green; */
+    font-size: 5ch;
+    margin: 10px;
+}
+.cards{
+    height: auto;
+    /* background: pink; */
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cards .card{
+    height: 50px;
+    width: max-content;
+    border: 1px solid white;
+    margin: 5px;
+    border-radius: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: transparent;
-    backdrop-filter: blur(5px);;
-    margin: 10px;
-    color: white;
+    padding: 10px;
     cursor: pointer;
-    /* border-radius: 20px; */
-    box-shadow: 0px 0px 10px 0px aqua;
-    transition: 0.5s;
 }
-.card::before{
-    content: "";
-    position: absolute;
-    top:0;
-    left: 0;
-    background: aqua;
-    translate: -50% -50%;
-    border-radius: 50%;
-    animation: 
-        move 10s  infinite,
-        sizes 10s steps(4, end) infinite;
+.cards .card:hover{
+    color: aqua;
+    border: 1px solid aqua;
+    box-shadow: 0px 0px 0px 2px aqua;
 }
-.card #hover-text{
-    visibility: hidden;
-    opacity: 0;
-    /* transition: opacity 0.5s ease; */
-    border: 1px dotted aqua;
-    position: absolute;
+/* Modal */
+.modal{
+    color: white;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    height: 500px;
+    width: 400px;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 50%;
     left: 50%;
-    top: 0;
-    transform: translateX(-50%);
-    white-space: nowrap;
-    padding: 5px 10px;
-    border-radius: 7px;
-    background-color: rgba(128, 128, 128, 0.251);
-    font-size: 10px;
-    z-index: 99;
-}
-.card:hover #hover-text{
-    top: -13%;
-    animation: fade 4s forwards;
-}
-@keyframes fade {
-    0%{
-    visibility: visible;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
     opacity: 1;
-    }100%{
-    visibility: hidden;
-    opacity: 0;
-    }
+    z-index: 99;
+    box-shadow: 0px 0px 10px 1px aqua;
 }
-.card:hover{
-    transform: scale(1.1);
+.modal .modal-inner{
+    background: transparent;
 }
-@media screen and (max-width: 600px){
-    .container,  .card-container{
-        height: 100%;
+p{
+    background: transparent;
+}
+h1{
+    background: transparent;
+}
+.modal button{
+    color: white;
+    padding: 10px;
+    border: 1px solid aqua;
+    margin: 10px 0px;
+    cursor: pointer;
+    height: 50px;
+    width: max-content;
+    border-radius: 5px;
+    background: transparent;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.modal button:hover{
+    color: aqua;
+    border: 1px solid aqua;
+    box-shadow: 0px 0px 0px 2px aqua;
+}
+
+@media (max-width: 320px){
+    .titles{
+        font-size: 3ch;
     }
-    .card-container{
-        border: none;
-    }
-    .card{
+    .container{
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
-}
-.aws-developer{
-    color: white;
-}
-.reactjs{
-    color: white;
-}
+    .modal{
+        width: 300px;
+    }
+    .cards .card{
+        height: 40px;
+        padding: 5px;
+        font-size: 13px;
+    }
+    h1{
+        font-size: 3ch;
+    }
+    p{
+        font-size: 13px;
+    }
+} 

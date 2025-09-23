@@ -1,5 +1,6 @@
 .exp-main{
     background: black;
+    color: white;
 }
 .exp{
     height: 100vh;
@@ -21,6 +22,7 @@
     padding: 20px 40px;
     border-radius: 5px;
     backdrop-filter: blur(5px);
+    width: 95%;
 }
 .exp-my::before{
     content: "";
@@ -67,80 +69,12 @@
     }
 }
 .exp-my h2{
-    font-size: 50px;
+    font-size: 5ch;
     margin-bottom: 10px;
 }
-.exp-my p{
+/* .exp-my p{
     font-size: 20px;
-}
+} */
 .exp-grad{
     color: white;
-    /* padding: 20px 50px; */
-}
-.slider{
-    height: 250px;
-    margin: auto;
-    position: relative;
-    width: 100%;
-    display: grid;
-    place-items: center;
-    overflow-x: hidden;
-}
-.slide-track{
-    display: flex;
-    width: calc(250px *18);
-    animation: scroll 40s linear infinite;
-}
-.slide-track:hover{
-    animation-play-state: paused;
-}
-@keyframes scroll {
-    0%{
-        transform: translateX(0);
-    }
-    100%{
-        transform: translateX(calc(-250px * 9));
-    }
-}
-.slide{
-    height: 150px;
-    width: 250px;
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    padding: 15px;
-    background: rgba(57, 56, 56, 0.532);
-    margin: 0px 10px;
-    border: 1px solid yellow;
-    transition: 0.5s ease-in-out;
-}
-.slider::after, .slider::before{
-    content: "";
-    height: 100%;
-    position: absolute;
-    width: 15%;
-    z-index: 2;
-}
-.slider::before{
-    /* background: linear-gradient(to right, black 0%, yellow 100%); */
-    background: radial-gradient(circle at 100%, #000, #000 50%, yellow 75%, #000 75%);
-    left: 0;
-    top: 0;
-}
-.slider::after{
-    /* background: linear-gradient(to right, yellow 0%, black 100%); */
-    background: radial-gradient(circle at 0%, #000, #000 50%, yellow 75%, #000 75%);
-    right: 0;
-    top: 0;
-}
-.slide:hover{
-    transform: scale(1.1);
-}
-.exp-grad h2{
-    font-size: 50px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-.exp-grad p{
-    text-align: center;
 }
