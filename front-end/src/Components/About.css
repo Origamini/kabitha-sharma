@@ -1,6 +1,6 @@
 .about-main{
     background-color: black;
-    color: white;
+    color: black;
 }
 .about{
     width: 100%;
@@ -71,6 +71,6 @@
     font-size: 5ch;
     margin-bottom: 10px;
 }
-/* .about-me p{
-    font-size: 20px;
-} */
+.about-me p{
+    font-weight: bold;
+}

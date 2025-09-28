@@ -1,6 +1,6 @@
 .exp-main{
     background: black;
-    color: white;
+    color: black;
 }
 .exp{
     height: 100vh;
@@ -72,9 +72,6 @@
     font-size: 5ch;
     margin-bottom: 10px;
 }
-/* .exp-my p{
-    font-size: 20px;
-} */
-.exp-grad{
-    color: white;
+.exp-my p{
+    font-weight: bold;
 }

@@ -98,7 +98,8 @@ h1{
         align-items: center;
     }
     .modal{
-        width: 300px;
+        width: 270px;
+        height: 300px;
     }
     .cards .card{
         height: 40px;

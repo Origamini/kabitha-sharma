@@ -9,7 +9,7 @@ const Experience = () => {
           <div className="exp">
             <div className="exp-my">
             <h2>Hey there!</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus debitis ab minima aliquam unde dolore, praesentium similique, non accusamus dicta molestias at necessitatibus. Adipisci enim, voluptate consequatur commodi rerum error.</p>
+            <p>I am working in Amazon as a customer service asscociate. I have also done live projects as a intern in coding cult. I have worked on dockerfiles, kubernetes and terraform. During my phase in AWS Master's course in Intellipaat I did hands on projects on Ansible, Jenkins, Terraform, Linux, Databases and Autoscaling.</p>
             </div>
           </div>
           </div>

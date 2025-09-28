@@ -1,6 +1,7 @@
 /* Introduction design */
 .home{
     background-color: black;
+    color: black;
 }
 .Intro{
     height: 100vh;
@@ -19,16 +20,17 @@
     background-position: center;
     background-blend-mode: multiply;
 }
-.forms h1, .Intro h1{
+.Intro h1{
     font-size: 5ch;
-    color: white;
     background: transparent;
+    color: black;
 }
 .Intro p{
     padding: 5px 10px;
     background: transparent;
     width: 95%;
-    color: white;
+    color: black;
+    font-weight: bold;
 }
 .forms{
     position: relative;
@@ -43,6 +45,11 @@
     background-repeat: no-repeat;
     background-position: center;
     background-blend-mode: multiply;
+}
+.forms h1{
+    font-size: 5ch;
+    color: white;
+    background: transparent;
 }
 .form-inputs{
     border: 1px solid rgba(128, 128, 128, 0.251);
