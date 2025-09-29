@@ -71,6 +71,14 @@
     font-size: 5ch;
     margin-bottom: 10px;
 }
-.about-me p{
+/* .about-me p{
     font-weight: bold;
+} */
+@media (max-width: 320px){
+    .about-me h2{
+        font-size: 3ch;
+    }
+    .about-me p{
+        font-size: 14px;
+    }
 }

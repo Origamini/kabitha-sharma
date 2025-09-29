@@ -15,8 +15,10 @@
     background-repeat: no-repeat;
     background-position: center;
     background-blend-mode: multiply;
+    overflow-y: scroll;
 }
 .exp-my{
+    /* margin-top: 100px; */
     position: relative;
     border: 1px solid yellow;
     padding: 20px 40px;
@@ -72,6 +74,15 @@
     font-size: 5ch;
     margin-bottom: 10px;
 }
-.exp-my p{
-    font-weight: bold;
+@media (max-width: 320px){
+    .exp-my{
+        margin-top: 70px;
+        margin-bottom: 25px;
+    }
+    .exp-my h2{
+        font-size: 3ch;
+    }
+    .exp-my ul{
+        font-size: 14px;
+    }
 }
