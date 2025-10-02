@@ -10,7 +10,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* color: white; */
     box-shadow: 0px 0px 25px 5px black inset; 
     background-image: 
     linear-gradient(to bottom, rgba(0, 0, 0, 0.043) 50%, rgb(0, 0, 0)), 
@@ -19,6 +18,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-blend-mode: multiply;
+    /* background-color: purple; */
 }
 .Intro h1{
     font-size: 5ch;
@@ -26,7 +26,7 @@
     color: black;
 }
 .Intro p{
-    padding: 5px 10px;
+    padding: 5px 0px;
     background: transparent;
     width: 95%;
     color: black;
@@ -114,6 +114,10 @@
     transition: color 0.3s ease;
 }
 @media (max-width: 320px){
+    .Intro{
+        align-items: flex-start;
+        padding: 0px 10px;
+    }
     .input{
         width: 200px;
     }
@@ -125,5 +129,5 @@
     }
     .forms h1, .Intro h1, .my-contacts h1{
     font-size: 3ch;
-}
+    }
 }

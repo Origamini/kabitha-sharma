@@ -9,7 +9,7 @@ const About = () => {
         <div className='about'>
           <div className='about-me'>
             <h2>About me!</h2>
-            <p>Currently, working in Amazon. I am skilled in HTMl, Css, Javascript, NodeJs, ReactJs. Programming languages like Java. Cloud Technology such as AWS. And Devops tools like Jenkins, Docker, Ansible, Kubernetes. Databases like MYSQL.</p>
+            <p>Hi, I’m Kavitha 👋 A cloud and DevOps enthusiast who loves building, automating, and experimenting with new tech. Whether it’s AWS, Terraform, Kubernetes, or Ansible, I enjoy turning complex ideas into simple, working solutions—and I’m always excited to learn something new!</p>
           </div>
         </div>
       </div>
